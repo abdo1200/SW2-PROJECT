@@ -1,0 +1,36 @@
+.header{
+    background-image: url('/images/photo-of-vehicles-on-road-near-buildings-2467558.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.header button{
+    background-color: steelblue ;
+    color: white;
+}
+.header p {
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+.header .col-5{
+    margin-top: 150px;
+}
+.header .text-head{
+    color: white;
+    font-size: 17px;
+    background-color: steelblue;
+}
+
+.social-footer{
+    padding-top: 20px;
+}
+
+.login-form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: steelblue;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
