@@ -16,7 +16,7 @@
     <script src="/js/all.js"></script>    
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a href="/" class="navbar-brand ml-2">Check-In</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,16 +33,11 @@
             </div>
         </nav>
 
-        <div class="container-fluid header" style="height:504px">
-            <div class="row">
-                <div class="col-5 ml-4">
-                    <p>Find deals on hotels, homes and much more...<br>
-                    <span class="text-head">From cosy country homes to funky city flats</span></p>
-                    <a href="{{ route('login') }}">
-                        <button class="btn">
-                            Login
-                        </button>
-                    </a>
+        <div class="container-fluid header">
+            <div class="row justify-content-center">
+                <div class="col-5 head-col text-center">
+                    <h2 style="color:white">InterContinental Cairo Semiramis</h2>
+                    <p>Corniche El Nil Street, Cairo, 11511, Egypt</p>
                 </div>
             </div>
         </div>
