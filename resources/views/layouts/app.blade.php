@@ -22,35 +22,16 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/all.css">
     <link rel="stylesheet" href="/css/style.css">
-    
+
 </head>
 <body>
-
-    <div class="modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>@include('layouts.message')</p>
-            </div>
-          </div>
-        </div>
-    </div>
     <div id="app">
         @include('layouts.nav')
-            @yield('content')
+        @yield('content')
         @include('layouts.footer')
     </div>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/main.js"></script>
-    <script>
-        $('#myModal').modal('show')
-    </script>
 </body>
 </html>
