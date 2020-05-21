@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
     <title>Laravel</title>
+=======
+@section('content')
+{{--  header section  --}}
+
+<div class="container-fluid header">
+    <div class="row justify-content-center">
+        <div class="mt-5 col-md-8">
+            <div class="mt-5 card">
+                <div class="card-header">{{ __('Login') }}</div>
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -103,6 +114,7 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
     </div>
     @include('layouts.footer')
 
@@ -112,3 +124,9 @@
     <script src="/js/main.js"></script>
 </body>
 </html>
+=======
+    </div>    
+</div>
+
+@endsection
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36

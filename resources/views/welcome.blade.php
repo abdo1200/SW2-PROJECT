@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/all.css">
     <link rel="stylesheet" href="/css/style.css">
+<<<<<<< HEAD
     <script src="/js/all.js"></script>
 </head>
 <body>
@@ -23,6 +24,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto mr-5">
+=======
+    <script src="/js/all.js"></script>    
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="/" class="navbar-brand ml-2">Check-In</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mr-3">
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36
                 @if (Route::has('login'))
                 <li class="nav-item"><a class="nav-link" href="{{ route('login') }}">Login</a></li>
                 @if (Route::has('register'))
@@ -33,11 +46,20 @@
         </div>
     </nav>
 
+<<<<<<< HEAD
     <div class="container-fluid header">
         <div class="row justify-content-center">
             <div class="col-5 head-col text-center">
                 <h2 style="color:white">InterContinental Cairo Semiramis</h2>
                 <p>Corniche El Nil Street, Cairo, 11511, Egypt</p>
+=======
+        <div class="container-fluid header">
+            <div class="row justify-content-center">
+                <div class="col-5 head-col text-center">
+                    <h2 style="color:white">InterContinental Cairo Semiramis</h2>
+                    <p>Corniche El Nil Street, Cairo, 11511, Egypt</p>
+                </div>
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36
             </div>
         </div>
     </div>

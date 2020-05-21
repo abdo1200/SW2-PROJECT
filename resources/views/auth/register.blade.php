@@ -4,7 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<<<<<<< HEAD
     <title>Laravel</title>
+=======
+@section('content')
+<div class="container-fluid register-header">
+    <div class="row justify-content-center">
+        <div class="col-md-8 mt-5">
+            <div class="card mt-5">
+                <div class="card-header">{{ __('Register') }}</div>
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -378,9 +387,15 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     @include('layouts.footer')
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/main.js"></script>
 </body>
 </html>
+=======
+</div>
+
+@endsection
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36

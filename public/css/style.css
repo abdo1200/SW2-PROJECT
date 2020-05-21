@@ -10,7 +10,11 @@ nav{
 .header,.admin-header{
     background-image: url('../images/room.jpg');
     background-size: 100% 550px;
+<<<<<<< HEAD
     height: 550px;
+=======
+    height: 500px;
+>>>>>>> f9e87ba9eb7727feb146ad6acd03795488881e36
     width: 100%;
 }
 .register-header{
